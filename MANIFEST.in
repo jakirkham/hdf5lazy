@@ -1,0 +1,8 @@
+recursive-include hdf5lazy *.py
+recursive-include docs *.rst
+
+include setup.py
+include README.md
+include MANIFEST.in
+
+prune docs/_build
